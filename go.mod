@@ -1,12 +1,13 @@
-module github.com/clingclangclick/fkt
+module github.com/s-collison/fkt
 
 go 1.21.1
 
 require (
 	github.com/Masterminds/sprig/v3 v3.2.3
 	github.com/alecthomas/kong v0.8.1
+	github.com/clingclangclick/fkt v0.19.0
 	github.com/sirupsen/logrus v1.9.3
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
+	golang.org/x/sync v0.1.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -21,5 +22,5 @@ require (
 	github.com/shopspring/decimal v1.2.0 // indirect
 	github.com/spf13/cast v1.3.1 // indirect
 	golang.org/x/crypto v0.3.0 // indirect
-	golang.org/x/sys v0.2.0 // indirect
+	golang.org/x/sys v0.7.0 // indirect
 )
